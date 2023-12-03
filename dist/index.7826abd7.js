@@ -27219,8 +27219,6 @@ function Board() {
     const handleSearchChange = (e)=>{
         const value = e.target.value;
         setSearchValue(value);
-    // if (e.key === 'Enter') {
-    // } 
     };
     const handleSearchKeyDown = (e)=>{
         if (e.key === "Enter") {
@@ -27260,7 +27258,7 @@ function Board() {
                         mr: "2"
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 73,
+                        lineNumber: 70,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.IconButton), {
@@ -27270,13 +27268,13 @@ function Board() {
                         icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _icons.DeleteIcon), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 83,
+                        lineNumber: 80,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/Board.jsx",
-                lineNumber: 71,
+                lineNumber: 68,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Flex), {
@@ -27292,7 +27290,7 @@ function Board() {
                         onChange: handleSelectAll
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 94,
+                        lineNumber: 91,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Text), {
@@ -27301,7 +27299,7 @@ function Board() {
                         children: "Name"
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 96,
+                        lineNumber: 93,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Text), {
@@ -27310,7 +27308,7 @@ function Board() {
                         children: "Email"
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 99,
+                        lineNumber: 96,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Text), {
@@ -27319,7 +27317,7 @@ function Board() {
                         children: "Role"
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 102,
+                        lineNumber: 99,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Text), {
@@ -27328,20 +27326,20 @@ function Board() {
                         children: "Actions"
                     }, void 0, false, {
                         fileName: "components/Board.jsx",
-                        lineNumber: 105,
+                        lineNumber: 102,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/Board.jsx",
-                lineNumber: 92,
+                lineNumber: 89,
                 columnNumber: 13
             }, this),
             pageData?.length > 0 ? pageData.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _peopleCardDefault.default), {
                     user: item
                 }, item.id, false, {
                     fileName: "components/Board.jsx",
-                    lineNumber: 114,
+                    lineNumber: 111,
                     columnNumber: 25
                 }, this)) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react1.Box), {
                 textAlign: "center",
@@ -27353,12 +27351,12 @@ function Board() {
                     margin: "auto"
                 }, void 0, false, {
                     fileName: "components/Board.jsx",
-                    lineNumber: 119,
+                    lineNumber: 116,
                     columnNumber: 29
                 }, this)
             }, void 0, false, {
                 fileName: "components/Board.jsx",
-                lineNumber: 117,
+                lineNumber: 114,
                 columnNumber: 21
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _paginationButtonsDefault.default), {
@@ -27366,13 +27364,13 @@ function Board() {
                 totalPages: totalPages
             }, void 0, false, {
                 fileName: "components/Board.jsx",
-                lineNumber: 125,
+                lineNumber: 122,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/Board.jsx",
-        lineNumber: 68,
+        lineNumber: 65,
         columnNumber: 9
     }, this);
 }
